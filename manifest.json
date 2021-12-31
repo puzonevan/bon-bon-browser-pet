@@ -11,13 +11,14 @@
         {
             "matches": ["<all_urls>"],
             "js": ["source/content/content.js"],
+            "css": ["source/content/content.css"],
             "run_at": "document_start", 
             "all_frames": true
         }
     ],
     "web_accessible_resources": [
         {
-            "resources": ["source/content/shark.gif"],
+            "resources": ["assets/animations/*"],
             "matches": ["<all_urls>"]
         }
     ],
