@@ -9,6 +9,9 @@ const initializePet = () =>{
     return bonbon;
 }
 
+
+
+
 const bonbon = initializePet();
 
 const hello = document.createElement("h1");
